@@ -1,0 +1,89 @@
+.contactContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.counter {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  margin: 16px 0 0 16px;
+}
+
+.searchBar {
+  display: flex;
+  margin-top: 24px;
+  gap: 16px;
+  margin-left: 16px;
+  input,
+  .onlyFavorites {
+    border: 1px solid gray;
+    border-radius: 8px;
+    height: 20px;
+    padding: 4px;
+  }
+
+  .favoritesS {
+    display: flex;
+    p {
+      padding-right: 16px;
+    }
+    align-items: center;
+  }
+
+  .addButton {
+    background-color: transparent;
+    border: 1px solid gray;
+    border-radius: 8px;
+    height: 28px;
+    width: 28px;
+    display: flex;
+    align-items: center;
+  }
+}
+
+.contactCard {
+  display: flex;
+  flex-direction: row;
+  margin: 8px;
+  padding: 8px;
+  border: 1px solid gray;
+  border-radius: 8px;
+  justify-content: space-between;
+  .name {
+    font-weight: 600;
+    margin-left: 0;
+  }
+  .email {
+    font-weight: 300;
+  }
+
+  .contactData {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .deleteButton {
+    border: none;
+    background-color: transparent;
+    :hover {
+      color: black;
+    }
+  }
+
+  .contact {
+    display: flex;
+    gap: 16px;
+  }
+
+  .initials {
+    background-color: lightblue;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
